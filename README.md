@@ -4,7 +4,7 @@ My first foray into C++, designing the inventory system for a single-player RPG 
 
 ## Prerequisites
 
-- Ensure you've installed [SQLite](https://sqlite.org/download.html).
+- Make sure you've installed [SQLite](https://sqlite.org/download.html).
 
 ## Compilation and Running
 
