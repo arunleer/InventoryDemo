@@ -1,17 +1,29 @@
-# Inventory Demo
+# Inventory System for RPG Game
 
 My first foray into C++, designing the inventory system for a single-player RPG game currently in part-time development.
 
-To run, make sure you've installed SQLite. Compile the cpp files together and link with SQLite's library. 
+## Prerequisites
 
-g++ main.cpp Inventory.cpp Item.cpp DatabaseManager.cpp -lsqlite3 -o inventoryApp
+- Ensure you've installed [SQLite](https://sqlite.org/download.html).
 
-Run the generated binary "inventoryApp".
+## Compilation and Running
 
-Title: TBA
+1. Compile the cpp files together and link with SQLite's library:
+    ```bash
+    g++ main.cpp Inventory.cpp Item.cpp DatabaseManager.cpp -lsqlite3 -o inventoryApp
+    ```
 
-Release Date: TBA
+2. Run the generated binary:
+    ```bash
+    ./inventoryApp
+    ```
 
-Team Members: TBA (Currently 8+)
+## Game Details
 
-Note: MIT License is in place for this project - so you can use this however you want for your projects, just credit me appropriately.
+- **Title**: TBA
+- **Release Date**: TBA
+- **Team Members**: TBA (Currently 8+)
+
+## License
+
+MIT License is in place for this project - so you can use this however you want for your projects, just credit me appropriately.
